@@ -8,8 +8,9 @@ We want to write A program that analyse the video at : https://www.youtube.com/w
 3. We should be able to execute the solution against any other Pink Panther video to give similar output.
 
 # Plaform Used
-1. I have created this jupyter notebook in Google Colab
-2. Just open the notebook in google colab and run it
+1. I have created this project in jupyter notebook in Google Colab
+2. Just open the notebook in google colab and execute it
+https://drive.google.com/open?id=1uchTLGWxA8nxy5-MIHieevB7PROozS4M
 
 # Approach taken to solve the problem
 1. Extract the 1 images/second from a given video using opencv
