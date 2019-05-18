@@ -7,11 +7,11 @@ We want to write A program that analyse the video at : https://www.youtube.com/w
 2. The Image file name must have timestamp of that image in the test video. For example: if at 2:40, we see Pink Panther, then we must have an image file called 2_40.jpg with black bounding box for Pink Panther. Another example is at 3:10 we see both Pink Panther and Little Man, then the output file name must be 3_10.jpg.
 3. We should be able to execute the solution against any other Pink Panther video to give similar output.
 
-Plaform Used
+# Plaform Used
 1. I have created this jupyter notebook in Google Colab
 2. Just open the notebook in google colab and run it
 
-Approach taken to solve the problem
+# Approach taken to solve the problem
 1. Extract the 1 images/second from a given video using opencv
 2. Manually Create the mapping csv file to map object in the images, here pink panther, little man, both and other
 3. Plot the count plot to check for data imbalance
